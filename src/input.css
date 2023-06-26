@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import 'daisyui/dist/daisyui.css';
+
+/* Your custom styles here */
+#success-card {
+  animation: fadeOut 5s;
+}
+#success-cards {
+  animation: fadeOut 5s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
